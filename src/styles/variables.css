@@ -1,0 +1,30 @@
+:root {
+  --bg: #ebe8e3;          /* oat cream */
+  --bg-2: #e2ded7;
+  --card: #f4f2ee;
+  --card-hover: #faf9f6;
+  --text: #3a4235;        /* deep olive */
+  --text-2: #5b6456;
+  --accent: #3a4235;      /* olive – primary actions */
+  --accent-2: #838c7d;    /* muted sage */
+  --accent-text: #5f6859; /* sage dark enough for small text */
+  --espresso: #4a3525;    /* rich espresso accent cards */
+  --accent-soft: rgba(131, 140, 125, 0.2);
+  --ov: 58, 66, 53;       /* overlay tint (olive); flipped to cream on dark surfaces */
+  --ac: 58, 66, 53;
+  --border: rgba(58, 66, 53, 0.14);
+  --border-strong: rgba(58, 66, 53, 0.26);
+  --warn: #8a5a14;
+  --danger: #a3372f;
+  --ok: #3f6b3a;
+
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 14px 34px rgba(74, 53, 37, 0.14);
+  --container: 1180px;
+  --nav-h: 68px;
+  --section-y: clamp(64px, 9vw, 120px);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
